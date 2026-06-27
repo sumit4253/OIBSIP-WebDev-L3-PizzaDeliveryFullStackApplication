@@ -6,12 +6,18 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "seed": "node utils/seedData.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": ["pizza", "delivery", "mern", "api"],
+  "keywords": [
+    "pizza",
+    "delivery",
+    "mern",
+    "api"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
